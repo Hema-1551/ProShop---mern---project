@@ -1,10 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
+import Footer from "./Components/Footer"
+import Header from "./Components/Header";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
     <>
-    <h1>i am hema</h1>
+      <Header />
+      <main className="py-3">
+        <Container>
+        <h1>Welcome to ProShop</h1>
+        </Container>
+      </main>
+
+      <Footer />
     </>
   );
 }
