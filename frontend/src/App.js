@@ -11,6 +11,7 @@ function App() {
       <main className="py-3">
         <Container>
         <h1>Welcome to ProShop</h1>
+        <h2>Added to check git</h2>
         </Container>
       </main>
 
